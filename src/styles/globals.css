@@ -1,0 +1,10 @@
+.container {
+  justify-content: center;
+}
+
+.dice {
+  border-style: solid;
+  justify-content: center;
+  border-width: 2px;
+border-color: black;
+}
