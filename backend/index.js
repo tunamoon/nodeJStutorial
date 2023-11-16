@@ -34,7 +34,7 @@ The 'res' field allows us to send data back to the API caller. In our example, w
 */
 app.get('/', (req, res) => {
     console.log('Message Sent!')
-    res.send((Math.floor(Math.random() * 5 + 1)).toString())
+    res.send((Math.floor(Math.random() * 6 + 1)).toString())
 })
 
 /*
